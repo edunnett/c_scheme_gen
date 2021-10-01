@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      generators|annotations:
+        enabled: true
+
+builders:
+  generators:
+    target: ":c_scheme_gen"
+    import: "package:c_scheme_gen/builder.dart"
+    builder_factories: ["generateColorScheme"]
+    build_extensions: { ".dart": [".g.dart"] }
+    auto_apply: dependents
+    build_to: cache
+
