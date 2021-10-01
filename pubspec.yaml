@@ -1,7 +1,7 @@
 name: c_scheme_gen
 description: Getters and setters to save variables to and from Map
 version: 1.0.0
-publish_to: https://dart.dev
+publish_to: https://pub.dev/
 
 repository: https://github.com/edunnett/c_scheme_gen
 environment:
