@@ -1,7 +1,7 @@
-#C-Scheme Gen
-## is a package of generators. Currently, you can generate a color scheme from a class of static colors.
+# C-Scheme Gen
+This is a package of generators. Currently, you can generate a color scheme from a class of static colors.
 
-#example.
+# example.
 
 in file colors.dart add
 ```dart
@@ -28,6 +28,6 @@ This will generate an extension to colorscheme
     }
 ```
 The reason you might want this is so that you can access the colors through the context in widgets like so
-```dart
+```dart 
     Theme.of(context).colorScheme.extra
 ```
