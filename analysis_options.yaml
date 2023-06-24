@@ -1,10 +1,7 @@
 analyzer:
-  exclude: 
+  exclude:
     - build/**
-    - lib/**.g.dart  
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
+    - lib/**.g.dart
 
   errors:
     missing_return: error

@@ -19,7 +19,6 @@ class ColorSchemeGenerator
 
     final classBuffer = StringBuffer();
 
-    classBuffer.writeln("import 'package:flutter/material.dart';");
     classBuffer.writeln('extension $className on ColorScheme {');
 
     for (final field in visitor.fields.keys) {
